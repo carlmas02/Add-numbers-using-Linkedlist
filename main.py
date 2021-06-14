@@ -42,13 +42,6 @@ def getnumber(num,linkednum):
 	return linkednum	
 
 
-
-
-#part2 reversing
-
- 
-#part3
-
 def calculation(a,b):
 	solution = Number()
 	sum_,carry = 0,0
@@ -76,10 +69,6 @@ def calculation(a,b):
 		solution.node_at_beginning(carry)
 
 	return solution
-
-
-
-
 
 
 
